@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #85a7f0;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: rgb(3, 20, 91);
+}
+
+.anecdote {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.votes {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
